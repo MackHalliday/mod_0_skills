@@ -1,0 +1,17 @@
+Object: Adam Smith
+
+Attributes:
+name "Adam Smith"
+tenure false
+courses_teaching ["Social Studies 101", "Social Studies 201"]
+salary 52000
+certifications_current true
+specializations "Native American History"
+number_of_students_per_course {"Social Studies 101": 20, "Social Studies 201": 25}
+
+Methods
+update_name > Would update Adam Smith's name
+update_tenure > If Adam Smith was tenure, would change tenure attribute to 'true'
+remove_course > Would remove one of Adam Smith's courses from courses_teaching attribute
+add_course > Would add a courses to Adam Smith's courses_teaching attribute 
+review_certifications > Would change Adam Smith's certification_current attribute to 'false' if certificates were out of date. 
