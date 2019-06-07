@@ -1,0 +1,19 @@
+Class: 
+Student
+
+Attributes: 
+name (string)
+grade(string)
+courses_enrolled (array)
+GPA (float)
+course_grades (hash)
+honor_roll (boolean)
+extracurricular_activities (array)
+
+Methods: 
+
+update_grade (updates student's current grade in course_grades)
+review_honor_roll_status (if students is in honor roll, then changes honor_roll to true. If student is not in honor roll, then then changes honor_roll to false)
+remove_course (removes a student's course from courses_enrolled)
+add_extracurricular_activity (added extracurricular activity to extracurricular_activity)
+
