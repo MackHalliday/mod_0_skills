@@ -1,0 +1,20 @@
+Class: 
+teacher
+
+Attributes: 
+name (string)
+tenure (boolean)
+courses_teaching (array)
+salary (integer)
+certifications_current (boolean)
+specialization (string)
+num_students_per_course (hash)
+
+
+Methods: 
+
+update_name (name, updates teachers name)
+update_tenure (checks if teacher is tenure and updates tenure attribute accordingly)
+remove_course (drops teacher's course and updates courses_teaching)
+add_course (added teacher's course and updates courses_teaching)
+review_certifications (check if teacher's certifications are up-to-date and updates certifications_current)
