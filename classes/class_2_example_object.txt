@@ -1,0 +1,18 @@
+Object: Timmy Junior
+
+
+Attributes: 
+name "Timmy Junior"
+grade "9th"
+courses_enrolled ("Social Studies 101", "Math 201", "Art 106")
+GPA (3.5)
+course_grades {"Social Studies 101": "A", "Math 201": "B", "Art 106: "A")
+honor_roll true
+extracurricular_activities ("Chess Club", "Theater"
+
+Methods: 
+
+update_grade > Would change Tim's grade under grade attribute. Next year, their grade would be updated to "10th"
+review_honor_roll_status > Would review honor roll status and keep honor_roll attribute at 'true' 
+remove_course > Would remove course from course_enrolled attribute, so could remove "Social Studies 101" or other courses. 
+add_extracurricular_activity > Would add extracurricular activity to extracurricular_activities attribute. For example, "Swimming" could be added. 
